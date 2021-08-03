@@ -17,21 +17,5 @@ public class browserInit {
 
 	
 	
-	@Test
-	public void first() {
-		browserInit b = new browserInit();
-		 WebDriver driver = b.brow();
-		 driver.get("https://www.airtel.in");
-		 driver.close();
-	}
-	
-	@Test
-	public void second() {
-		browserInit b = new browserInit();
-		 WebDriver driver = b.brow();
-		 driver.get("https://www.google.co.in");
-		 driver.close();
-	}
-	
 	
 }
