@@ -20,6 +20,9 @@ public class Airtel {
 		 driver.findElement(By.xpath(".//button[contains(text(),'Home')]")).click();
 		 String text =  driver.findElement(By.xpath(".//*[contains(text(),' contact@rahulshettyacademy.com')]")).getText();
 		 //Assert.assertEquals(text, " contact@rahulshettyacademy.com");
+		 
+		 
+		 System.out.println("test check");
 		 driver.close();
 	}
 	
